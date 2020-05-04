@@ -19,3 +19,8 @@ p {
 .first {
     color: brown;
 }
+
+.akan {
+    display: flex;
+  }
+  
