@@ -10,6 +10,75 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    
+    <!-- Page layout -->
+    <div class="page layout container">
+        <div class="wrapper">
+            <div class="col-md-7">
+            <h1 class="first"><strong>akan</strong></h1>
+            <h1 class="second"><strong>names</strong></h1>                       
+                  <p>In Ghana, a child’s name is determined by factors surrounding his or her birth.
+                     According to Akan tradition, each child is born with a name associated to their soul.
+                     The well thought and organized naming system of the Akan’s was initiated by the ancestors and has attracted so many people’s attention as they desire to know more about these names.
+                     This web application tends to make this easier and fun by just a button click it generates your akan name according to the gender,day, month and year you were born,
+                  </p>
+                 <p>Here are some of the akan names according to the day of birth..</p>
+                    <div class="text">
+                        <p>HAVE FUN🤸🎉</p>
+                   </div>
+       </div>
+        
+             <!-- Akan names -->
+             <div class="akan">
+                <div class="row">
+                    <div class="col-md-">
+                          <i class="fas fa-mars fa-3x"></i>
+                              <nav>
+                                   <ul>
+                                       <li>Sunday: Kwasi</li>
+                                       <li>Monday: Kwadwo</li>
+                                       <li>Tuesday: Kwabena</li>
+                                       <li>Wednesday: Kwaku</li>
+                                       <li>Thursday:  Yaw</li>
+                                       <li>Friday: Kofi</li>
+                                       <li>Saturday: Kwame</li>
+                                  </ul>
+                             </nav>
+                    </div>
+                    
+               
+            </div>
+                  
+            <div class="col-md-3">
+                <i class="fas fa-venus fa-3x"></i>
+                    <nav>
+                        <ul>
+                           <li>Sunday: Akosua</li>
+                           <li>Monday: Adwoa</li>
+                           <li>Tuesday: Abenaa</li>
+                           <li>Wednesday: Akua</li>
+                           <li>Thursday: Yaa</li> 
+                           <li>Friday: Afua</li>
+                           <li>Saturday: Ama</li>
+                        </ul>
+                   </nav>
+         </div> 
+ 
+          
+
+</div>
+
+</div>
+   <!-- akan generator -->
+   <div class="generator">
+    <form  class ="needs-validation" novalidate>
+       <input type="number" id="day" class="form-control" value="" placeholder="Day" min="1" max="31" required ><br>
+       <input type="number" id="month"  value="" placeholder="Month" min="1" max="12" required><br><br>
+       <input type="text" id="year"  value="" placeholder="Year" required><br><br>
+       <input type="radio" id="male"  name="gender" value="male"><strong>Male</strong>
+       <input type="radio" id="female"  name="gender" value="female" ><strong>Female</strong><br><br>
+       <input type="submit" id="submit" class="btn btn-secondary" onclick="getInfo()"  value="Submit">
+    </form>
+</div>
+<script src="index.js"></script> 
 </body>
 </html>
