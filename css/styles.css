@@ -37,3 +37,9 @@ p {
 #first {
     color: #a52a2a;
 }
+
+.akan {
+    text-shadow: white;
+    text-emphasis-color: blue;
+    font-style: italic;
+}
