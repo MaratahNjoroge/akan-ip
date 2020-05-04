@@ -5,7 +5,7 @@
 - A simple web application that takes the user's birthday and calculates the day of the week they were born depending on their gender output, including an installed version of Git.
 ## Setup/Installation Requirements
 To run the application in your terminal: 
-- Clone Repository on Local Machine (live link to project)
+- Clone Repository on Local Machine https://maratahnjoroge.github.io/akan-ip/
 - cd into Directory  cd akan
 - Open the index.html on the browser
 ## Behaviour Driven Development
