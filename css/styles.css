@@ -5,3 +5,9 @@ body {
     font-size: 15px;
     
 }
+
+h1 {
+    display: inline;
+    text-transform: uppercase;
+    
+}
