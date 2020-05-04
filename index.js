@@ -36,3 +36,5 @@ function radioInfo (){
     {
     if (radio[i].checked==true)
     {
+        // generate output with the checked radio
+        
