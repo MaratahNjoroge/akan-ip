@@ -24,3 +24,12 @@ p {
     display: flex;
   }
   
+  .generator {
+    background-color: none; 
+    float: right; 
+    transform: translate(10px, -550px);
+    width: 310px;
+    border-radius: 20px 40px;
+    padding: 40px;
+    margin: 20px;    
+}
