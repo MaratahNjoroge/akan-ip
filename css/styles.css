@@ -11,3 +11,7 @@ h1 {
     text-transform: uppercase;
     
 }
+
+p {
+    font-style: italic;
+}
