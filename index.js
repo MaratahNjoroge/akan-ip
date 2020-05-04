@@ -26,3 +26,4 @@ function getInfo(){
     else{
        name = female[d];
     }
+    //concatinating the day you were born and the Akan name
