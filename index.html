@@ -68,6 +68,17 @@
 </div>
 
 </div>
-
+   <!-- akan generator -->
+   <div class="generator">
+    <form  class ="needs-validation" novalidate>
+       <input type="number" id="day" class="form-control" value="" placeholder="Day" min="1" max="31" required ><br>
+       <input type="number" id="month"  value="" placeholder="Month" min="1" max="12" required><br><br>
+       <input type="text" id="year"  value="" placeholder="Year" required><br><br>
+       <input type="radio" id="male"  name="gender" value="male"><strong>Male</strong>
+       <input type="radio" id="female"  name="gender" value="female" ><strong>Female</strong><br><br>
+       <input type="submit" id="submit" class="btn btn-secondary" onclick="getInfo()"  value="Submit">
+    </form>
+</div>
+<script src="index.js"></script> 
 </body>
 </html>
