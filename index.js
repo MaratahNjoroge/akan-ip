@@ -39,5 +39,9 @@ function radioInfo (){
         // generate output with the checked radio
 
         gender = radio[i].value;
-        // only one radio can be logically checked, don't check the rest
-        
+        // only one radio can be logically checked
+
+return gender;
+}
+}
+}
