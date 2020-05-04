@@ -32,3 +32,9 @@ To fix a bug or enhance an existing module, follow these steps:
 - Commit your changes (`git commit -am ‘Improve feature’`)
 - Push to the branch (`git push origin improve-feature`)
 - Create a Pull Request
+## Technologies Used
+- HTML and CSS
+- VSCode, Sweet Vscode, Brackets any Text Editor
+- TerminalCLI(Command Line Interface)
+- Javascript, JSFiddle, Repl.it
+- Debugger for chrome
