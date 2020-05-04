@@ -18,6 +18,7 @@ p {
 
 .first {
     color: brown;
+    text-transform: uppercase;
 }
 
 .akan {
